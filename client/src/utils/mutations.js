@@ -10,7 +10,6 @@ mutation Mutation($password: String!, $email: String) {
     token
   }
 }
-
 `;
 
 export const ADD_USER = gql`
@@ -36,10 +35,6 @@ export const SAVE_BOOK = gql`
     }
   }
 `;
-
-
-
-
 
 export const REMOVE_BOOK = gql`
   mutation deleteBook($bookId: String!) {

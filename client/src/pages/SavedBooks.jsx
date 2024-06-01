@@ -19,9 +19,6 @@ const SavedBooks = () => {
   console.log('this is saved book data', data)
   const userData = data?.myProfile || {};
 
-  
-
-
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
     try {console.log(bookId)
